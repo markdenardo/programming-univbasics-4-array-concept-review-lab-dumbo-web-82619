@@ -19,10 +19,10 @@ end
 
 def find_min_value(array)
   i=array[0]
-  array.length.times do |index|
-   if array[index]<i
+  array.length.times do|index|
+      if array[index]<i
      i=array[index]
+      end
   end
-end
   i
 end
