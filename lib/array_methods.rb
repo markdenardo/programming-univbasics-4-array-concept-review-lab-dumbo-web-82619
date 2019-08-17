@@ -9,20 +9,20 @@ end
 
 def find_max_value(array)
   i=0
-  array.length.times {|index|
+  array.length.times do|index|
     if array[index] > i
       i = array[index]
     end
-  } 
+  end
   i
 end
 
 def find_min_value(array)
   i=array[0]
-  array.length.times {|index|
+  array.length.times do |index|
    if array[index]<i
      i=array[index]
   end
-  }
+end
   i
 end
